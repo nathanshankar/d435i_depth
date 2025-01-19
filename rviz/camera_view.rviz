@@ -287,8 +287,8 @@ Visualization Manager:
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: 4.297743320465088
-        Min Value: 2.3268914222717285
+        Max Value: 9.903738975524902
+        Min Value: 4.832573890686035
         Value: true
       Axis: X
       Channel Name: intensity
@@ -321,8 +321,8 @@ Visualization Manager:
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: 4.953579902648926
-        Min Value: -0.8953062295913696
+        Max Value: 4.927957534790039
+        Min Value: -1.3445920944213867
         Value: true
       Axis: Z
       Channel Name: intensity
@@ -348,6 +348,39 @@ Visualization Manager:
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /points
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz_default_plugins/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: FlatColor
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Max Intensity: 0.03474258631467819
+      Min Color: 0; 0; 0
+      Min Intensity: 0
+      Name: PointCloud2
+      Position Transformer: XYZ
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.03999999910593033
+      Style: Spheres
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /keypoints
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
@@ -397,25 +430,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 4.810462951660156
+      Distance: 11.826272964477539
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.22443512082099915
-        Y: 0.11640952527523041
-        Z: 0.71574467420578
+        X: 6.654338836669922
+        Y: 0.5518411993980408
+        Z: 2.5599520206451416
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.2647966146469116
+      Pitch: 0.29479679465293884
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 3.100390672683716
+      Yaw: 2.2904093265533447
     Saved: ~
 Window Geometry:
   Depth Image:
