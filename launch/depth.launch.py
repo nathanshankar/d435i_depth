@@ -40,7 +40,7 @@ def generate_launch_description():
         namespace='',
         executable='rviz2',
         name='rviz2',
-        arguments=['-d' + os.path.join(get_package_share_directory(pkg_name), 'rviz', 'camera_view.rviz')]
+        arguments=['-d' + os.path.join(get_package_share_directory(pkg_name), 'rviz', 'vslam_camera_view.rviz')]
     )
 
     # Add actions to LaunchDescription
